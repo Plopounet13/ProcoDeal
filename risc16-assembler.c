@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 #include <string.h>
 
 #define MAXLINELENGTH 1000
@@ -119,7 +121,7 @@ char *s;
 		}
 	}
 	if (reg < 0 || reg > 7) {
-		fprintf(stderr, "error: register value [%s/%hd] out of range\n", s, reg);
+		fprintf(stderr, "error: register value [%s/%d] out of range\n", s, reg);
 		exit(0);
 	}
 	return (short)(reg & 0x7);
@@ -161,7 +163,7 @@ char *s;
 	return imm;
 }
 
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	char *inFileString, *outFileString;
 	FILE *inFilePtr, *outFilePtr;
