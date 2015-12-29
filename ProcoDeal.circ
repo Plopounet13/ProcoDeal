@@ -108,7 +108,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-<<<<<<< Updated upstream
     <wire from="(180,680)" to="(240,680)"/>
     <wire from="(190,640)" to="(190,660)"/>
     <wire from="(170,300)" to="(200,300)"/>
@@ -206,26 +205,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="select" val="2"/>
       <a name="width" val="16"/>
       <a name="enable" val="false"/>
-=======
-    <wire from="(60,300)" to="(170,300)"/>
-    <wire from="(170,300)" to="(200,300)"/>
-    <wire from="(210,60)" to="(210,70)"/>
-    <wire from="(180,250)" to="(200,250)"/>
-    <wire from="(220,230)" to="(220,240)"/>
-    <wire from="(180,250)" to="(180,280)"/>
-    <wire from="(210,370)" to="(210,400)"/>
-    <wire from="(200,50)" to="(260,50)"/>
-    <wire from="(220,240)" to="(250,240)"/>
-    <wire from="(220,20)" to="(220,70)"/>
-    <wire from="(210,310)" to="(210,320)"/>
-    <wire from="(210,170)" to="(210,200)"/>
-    <wire from="(200,230)" to="(200,250)"/>
-<<<<<<< Updated upstream
-    <comp loc="(210,300)" name="reg16"/>
-    <comp loc="(210,340)" name="ID">
-      <a name="label" val="ID"/>
-      <a name="labelloc" val="west"/>
->>>>>>> Stashed changes
     </comp>
     <comp loc="(210,200)" name="IF">
       <a name="label" val="IF"/>
@@ -238,7 +217,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="ID"/>
       <a name="labelloc" val="west"/>
     </comp>
-<<<<<<< Updated upstream
     <comp loc="(210,420)" name="reg16"/>
     <comp loc="(240,550)" name="reg16"/>
     <comp lib="6" loc="(142,493)" name="Text">
@@ -249,47 +227,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp loc="(180,300)" name="reg16"/>
     <comp loc="(190,410)" name="reg3"/>
     <comp loc="(170,540)" name="reg3"/>
-=======
-=======
-    <wire from="(210,110)" to="(210,140)"/>
-    <wire from="(60,160)" to="(60,190)"/>
-    <wire from="(180,310)" to="(180,320)"/>
-    <wire from="(250,60)" to="(250,240)"/>
-    <wire from="(50,190)" to="(60,190)"/>
-    <wire from="(60,160)" to="(200,160)"/>
-    <wire from="(230,370)" to="(230,400)"/>
-    <wire from="(260,50)" to="(260,320)"/>
-    <wire from="(60,190)" to="(60,300)"/>
-    <wire from="(210,230)" to="(210,280)"/>
-    <wire from="(250,370)" to="(250,400)"/>
-    <wire from="(210,60)" to="(250,60)"/>
-    <comp lib="0" loc="(220,20)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="16"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp loc="(230,420)" name="reg16"/>
-    <comp lib="5" loc="(50,190)" name="Button"/>
-    <comp loc="(210,300)" name="reg16"/>
-    <comp loc="(210,420)" name="reg16"/>
-    <comp lib="2" loc="(210,110)" name="Multiplexer">
-      <a name="facing" val="south"/>
-      <a name="select" val="2"/>
-      <a name="width" val="16"/>
-      <a name="enable" val="false"/>
-    </comp>
-    <comp loc="(250,420)" name="reg16"/>
-    <comp loc="(200,500)" name="EXE"/>
-    <comp loc="(180,300)" name="reg16"/>
-    <comp loc="(210,340)" name="ID"/>
-    <comp loc="(210,160)" name="reg16"/>
->>>>>>> Stashed changes
-    <comp lib="0" loc="(190,90)" name="Constant">
-      <a name="width" val="2"/>
-      <a name="value" val="0x3"/>
-    </comp>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
     <comp loc="(210,160)" name="reg16"/>
     <comp loc="(190,540)" name="reg3"/>
     <comp loc="(190,670)" name="reg3"/>
@@ -302,22 +239,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="16"/>
       <a name="value" val="0x0"/>
     </comp>
-<<<<<<< Updated upstream
     <comp loc="(190,640)" name="MEM">
       <a name="label" val="MEM"/>
       <a name="labelloc" val="west"/>
     </comp>
     <comp loc="(220,470)" name="EXE"/>
     <comp loc="(250,680)" name="reg16"/>
-=======
-    <comp loc="(180,300)" name="reg16"/>
-=======
-    <comp loc="(210,200)" name="IF">
-      <a name="label" val="IF"/>
-      <a name="labelloc" val="west"/>
-    </comp>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
   </circuit>
   <circuit name="IF">
     <a name="circuit" val="IF"/>
@@ -332,20 +259,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(390,100)" to="(440,100)"/>
     <wire from="(120,100)" to="(120,150)"/>
     <wire from="(120,150)" to="(130,150)"/>
-<<<<<<< Updated upstream
     <wire from="(120,80)" to="(120,100)"/>
     <wire from="(390,100)" to="(390,330)"/>
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
     <comp lib="0" loc="(180,190)" name="Constant">
       <a name="facing" val="north"/>
-=======
-    <wire from="(120,80)" to="(120,100)"/>
-    <wire from="(390,100)" to="(390,330)"/>
-    <comp lib="3" loc="(480,110)" name="Adder">
-      <a name="width" val="16"/>
->>>>>>> Stashed changes
     </comp>
     <comp lib="3" loc="(480,110)" name="Adder">
       <a name="width" val="16"/>
@@ -357,54 +274,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="PC"/>
       <a name="labelloc" val="north"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(390,330)" name="Pin">
-=======
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(280,330)" name="Pin">
->>>>>>> Stashed changes
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="width" val="16"/>
       <a name="label" val="PC"/>
       <a name="labelloc" val="south"/>
-=======
+    </comp>
     <comp lib="0" loc="(440,120)" name="Constant">
       <a name="width" val="16"/>
->>>>>>> Stashed changes
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(440,120)" name="Constant">
-=======
-    <comp lib="4" loc="(270,150)" name="ROM">
-      <a name="addrWidth" val="16"/>
-      <a name="dataWidth" val="16"/>
-      <a name="contents">addr/data: 16 16
-6401
-</a>
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="3" loc="(480,110)" name="Adder">
-=======
-    <comp lib="0" loc="(390,330)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
->>>>>>> Stashed changes
-      <a name="width" val="16"/>
-      <a name="label" val="PC"/>
-      <a name="labelloc" val="south"/>
     </comp>
     <comp lib="0" loc="(500,330)" name="Pin">
-<<<<<<< Updated upstream
-=======
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
->>>>>>> Stashed changes
-      <a name="width" val="16"/>
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(390,330)" name="Pin">
->>>>>>> Stashed changes
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="width" val="16"/>
@@ -425,18 +305,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
 6401
 </a>
     </comp>
-=======
-    <comp lib="0" loc="(180,190)" name="Constant">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(280,330)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="INS"/>
-      <a name="labelloc" val="south"/>
-    </comp>
->>>>>>> Stashed changes
   </circuit>
   <circuit name="ID">
     <a name="circuit" val="ID"/>
@@ -449,19 +317,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="8" pin="130,140" width="8" x="76" y="56"/>
       <circ-port height="8" pin="480,210" width="8" x="156" y="76"/>
       <circ-port height="8" pin="470,250" width="8" x="56" y="86"/>
-      <circ-port height="10" pin="740,70" width="10" x="155" y="55"/>
+      <circ-port height="10" pin="740,70" width="10" x="105" y="105"/>
       <circ-port height="10" pin="740,160" width="10" x="65" y="105"/>
       <circ-port height="10" pin="740,190" width="10" x="75" y="105"/>
       <circ-port height="8" pin="510,210" width="8" x="156" y="86"/>
-<<<<<<< Updated upstream
       <circ-port height="10" pin="740,230" width="10" x="145" y="105"/>
       <circ-port height="10" pin="740,280" width="10" x="135" y="105"/>
       <circ-port height="10" pin="740,330" width="10" x="125" y="105"/>
-=======
-      <circ-port height="10" pin="740,230" width="10" x="125" y="105"/>
-      <circ-port height="10" pin="740,280" width="10" x="145" y="105"/>
-      <circ-port height="10" pin="740,330" width="10" x="105" y="105"/>
->>>>>>> Stashed changes
       <circ-anchor facing="east" height="6" width="6" x="107" y="77"/>
     </appear>
     <wire from="(420,330)" to="(740,330)"/>
@@ -487,8 +349,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(160,220)" to="(200,220)"/>
     <wire from="(490,210)" to="(490,230)"/>
     <wire from="(440,270)" to="(450,270)"/>
-    <wire from="(380,340)" to="(380,350)"/>
     <wire from="(330,160)" to="(330,200)"/>
+    <wire from="(380,340)" to="(380,350)"/>
     <wire from="(180,310)" to="(210,310)"/>
     <wire from="(510,240)" to="(710,240)"/>
     <wire from="(160,300)" to="(200,300)"/>
@@ -530,25 +392,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(480,260)" to="(480,270)"/>
     <wire from="(390,260)" to="(410,260)"/>
     <wire from="(210,310)" to="(210,350)"/>
-<<<<<<< Updated upstream
     <comp loc="(510,240)" name="RegisterFile"/>
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
     <comp lib="2" loc="(440,270)" name="Multiplexer">
-=======
-    <comp loc="(260,350)" name="Left-shift 6"/>
-    <comp lib="0" loc="(740,230)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="SRC1"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="2" loc="(420,330)" name="Multiplexer">
->>>>>>> Stashed changes
       <a name="selloc" val="tr"/>
-      <a name="width" val="16"/>
+      <a name="width" val="3"/>
       <a name="enable" val="false"/>
     </comp>
     <comp lib="0" loc="(510,210)" name="Pin">
@@ -574,13 +421,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit0" val="2"/>
       <a name="bit2" val="0"/>
     </comp>
-<<<<<<< Updated upstream
     <comp loc="(370,200)" name="CTL6"/>
     <comp lib="0" loc="(740,330)" name="Pin">
-=======
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(740,190)" name="Pin">
->>>>>>> Stashed changes
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="16"/>
@@ -617,7 +459,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="west"/>
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
-<<<<<<< Updated upstream
       <a name="bit0" val="2"/>
       <a name="bit2" val="0"/>
     </comp>
@@ -637,16 +478,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit8" val="1"/>
       <a name="bit9" val="0"/>
     </comp>
-=======
-=======
-    <comp lib="0" loc="(280,160)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
-      <a name="appear" val="right"/>
->>>>>>> Stashed changes
-    </comp>
->>>>>>> Stashed changes
     <comp lib="0" loc="(740,160)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -654,15 +485,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="OP"/>
       <a name="labelloc" val="east"/>
     </comp>
-<<<<<<< Updated upstream
     <comp loc="(260,350)" name="Left-shift 6"/>
     <comp lib="0" loc="(740,230)" name="Pin">
-=======
-<<<<<<< Updated upstream
-    <comp loc="(260,310)" name="Sign-Ext 7"/>
-    <comp loc="(510,240)" name="RegisterFile"/>
-    <comp lib="0" loc="(740,330)" name="Pin">
->>>>>>> Stashed changes
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="16"/>
@@ -696,42 +520,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="WE"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(740,190)" name="Pin">
-=======
-    <comp lib="0" loc="(180,310)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="10"/>
-      <a name="incoming" val="10"/>
-      <a name="appear" val="right"/>
-=======
-    <comp lib="0" loc="(740,190)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="label" val="rT"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(130,70)" name="Pin">
-      <a name="width" val="16"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="PC_in"/>
-    </comp>
-    <comp lib="0" loc="(740,70)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="PC_out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(220,270)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
->>>>>>> Stashed changes
-    </comp>
-    <comp lib="0" loc="(220,240)" name="Splitter">
->>>>>>> Stashed changes
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="3"/>
@@ -753,46 +542,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="selloc" val="tr"/>
       <a name="width" val="16"/>
       <a name="enable" val="false"/>
-    </comp>
-    <comp lib="0" loc="(180,310)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="10"/>
-      <a name="incoming" val="10"/>
-      <a name="appear" val="right"/>
-    </comp>
-    <comp lib="2" loc="(440,270)" name="Multiplexer">
-      <a name="selloc" val="tr"/>
-      <a name="width" val="3"/>
-      <a name="enable" val="false"/>
-    </comp>
-    <comp loc="(370,200)" name="CTL6"/>
-    <comp loc="(510,240)" name="RegisterFile"/>
-    <comp lib="0" loc="(130,140)" name="Pin">
-      <a name="width" val="16"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="INS"/>
-    </comp>
-    <comp lib="0" loc="(220,240)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
-      <a name="appear" val="right"/>
-    </comp>
-    <comp loc="(260,310)" name="Sign-Ext 7"/>
-    <comp lib="0" loc="(280,170)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
-    </comp>
-    <comp loc="(320,160)" name="CTL7"/>
-    <comp lib="0" loc="(470,250)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="WE"/>
-    </comp>
-    <comp lib="0" loc="(140,140)" name="Splitter">
-      <a name="fanout" val="16"/>
-      <a name="incoming" val="16"/>
-      <a name="appear" val="right"/>
     </comp>
   </circuit>
   <circuit name="RegisterFile">
@@ -890,48 +639,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(290,410)" to="(290,520)"/>
     <wire from="(720,630)" to="(730,630)"/>
     <wire from="(210,250)" to="(220,250)"/>
-<<<<<<< Updated upstream
     <wire from="(540,270)" to="(540,340)"/>
     <comp lib="0" loc="(30,320)" name="Pin">
-=======
-<<<<<<< Updated upstream
-    <comp lib="4" loc="(210,250)" name="Register">
-=======
-    <wire from="(540,270)" to="(540,340)"/>
-    <comp lib="4" loc="(560,250)" name="Register">
->>>>>>> Stashed changes
-      <a name="width" val="16"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <comp lib="4" loc="(140,250)" name="Register">
-      <a name="width" val="16"/>
-      <a name="trigger" val="high"/>
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="4" loc="(560,250)" name="Register">
-=======
-    <comp lib="2" loc="(750,430)" name="Multiplexer">
-      <a name="selloc" val="tr"/>
-      <a name="select" val="3"/>
-      <a name="width" val="16"/>
-    </comp>
-    <comp lib="4" loc="(490,250)" name="Register">
->>>>>>> Stashed changes
-      <a name="width" val="16"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <comp lib="2" loc="(50,320)" name="Demultiplexer">
-      <a name="selloc" val="tr"/>
-      <a name="select" val="3"/>
-    </comp>
-    <comp lib="4" loc="(210,250)" name="Register">
-      <a name="width" val="16"/>
-      <a name="trigger" val="high"/>
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(720,250)" name="Pin">
-      <a name="width" val="3"/>
->>>>>>> Stashed changes
       <a name="tristate" val="false"/>
       <a name="label" val="WE"/>
       <a name="labelloc" val="north"/>
@@ -940,20 +649,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="16"/>
       <a name="value" val="0x0"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(770,430)" name="Pin">
-=======
-=======
-    <comp lib="0" loc="(200,70)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="width" val="16"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="TGT_in"/>
-      <a name="labelloc" val="north"/>
-    </comp>
->>>>>>> Stashed changes
-    <comp lib="0" loc="(770,540)" name="Pin">
->>>>>>> Stashed changes
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="16"/>
@@ -972,23 +668,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="16"/>
       <a name="trigger" val="high"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(720,630)" name="Pin">
       <a name="width" val="3"/>
       <a name="tristate" val="false"/>
       <a name="label" val="SRC2_in"/>
       <a name="labelloc" val="south"/>
-=======
-    <comp lib="4" loc="(630,250)" name="Register">
-      <a name="width" val="16"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <comp lib="0" loc="(720,250)" name="Pin">
-      <a name="width" val="3"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="SRC1_in"/>
-      <a name="labelloc" val="north"/>
->>>>>>> Stashed changes
     </comp>
     <comp lib="2" loc="(200,100)" name="Demultiplexer">
       <a name="facing" val="south"/>
@@ -1002,33 +686,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="TGT_in"/>
       <a name="labelloc" val="north"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="2" loc="(50,320)" name="Demultiplexer">
       <a name="selloc" val="tr"/>
       <a name="select" val="3"/>
     </comp>
     <comp lib="4" loc="(630,250)" name="Register">
-=======
-    <comp lib="4" loc="(420,250)" name="Register">
       <a name="width" val="16"/>
       <a name="trigger" val="high"/>
     </comp>
-<<<<<<< Updated upstream
-    <comp lib="4" loc="(350,250)" name="Register">
-=======
-    <comp lib="2" loc="(200,100)" name="Demultiplexer">
-      <a name="facing" val="south"/>
-      <a name="select" val="3"/>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-      <a name="width" val="16"/>
-    </comp>
-<<<<<<< Updated upstream
     <comp lib="4" loc="(420,250)" name="Register">
-=======
-<<<<<<< Updated upstream
-    <comp lib="4" loc="(490,250)" name="Register">
->>>>>>> Stashed changes
       <a name="width" val="16"/>
       <a name="trigger" val="high"/>
     </comp>
@@ -1047,13 +713,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="4" loc="(560,250)" name="Register">
       <a name="width" val="16"/>
-<<<<<<< Updated upstream
       <a name="trigger" val="high"/>
     </comp>
     <comp lib="4" loc="(350,250)" name="Register">
-=======
-=======
-    <comp lib="4" loc="(140,250)" name="Register">
       <a name="width" val="16"/>
       <a name="trigger" val="high"/>
     </comp>
@@ -1064,48 +726,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="TGT_sel"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="0" loc="(110,250)" name="Constant">
-      <a name="width" val="16"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(770,430)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="SRC1_out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(720,630)" name="Pin">
-      <a name="width" val="3"/>
->>>>>>> Stashed changes
-      <a name="tristate" val="false"/>
-      <a name="label" val="SRC2_in"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="4" loc="(420,250)" name="Register">
->>>>>>> Stashed changes
-      <a name="width" val="16"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <comp lib="0" loc="(70,60)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="width" val="3"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="TGT_sel"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-<<<<<<< Updated upstream
     <comp lib="4" loc="(210,250)" name="Register">
       <a name="width" val="16"/>
       <a name="trigger" val="high"/>
     </comp>
     <comp lib="2" loc="(750,430)" name="Multiplexer">
       <a name="selloc" val="tr"/>
-=======
-<<<<<<< Updated upstream
-    <comp lib="2" loc="(200,100)" name="Demultiplexer">
-      <a name="facing" val="south"/>
->>>>>>> Stashed changes
       <a name="select" val="3"/>
       <a name="width" val="16"/>
     </comp>
@@ -1113,8 +739,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="select" val="3"/>
       <a name="width" val="16"/>
     </comp>
-=======
->>>>>>> Stashed changes
   </circuit>
   <circuit name="CTL7">
     <a name="circuit" val="CTL7"/>
@@ -1131,15 +755,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(280,310)" to="(310,310)"/>
     <wire from="(340,320)" to="(340,330)"/>
     <wire from="(240,250)" to="(270,250)"/>
-<<<<<<< Updated upstream
     <wire from="(110,330)" to="(270,330)"/>
     <wire from="(210,170)" to="(250,170)"/>
-=======
-    <wire from="(310,170)" to="(310,220)"/>
-    <wire from="(110,330)" to="(270,330)"/>
->>>>>>> Stashed changes
     <wire from="(340,280)" to="(340,300)"/>
-    <wire from="(210,170)" to="(250,170)"/>
     <wire from="(110,160)" to="(190,160)"/>
     <wire from="(240,180)" to="(240,210)"/>
     <wire from="(210,180)" to="(240,180)"/>
@@ -1153,47 +771,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(280,310)" to="(280,320)"/>
     <wire from="(340,330)" to="(470,330)"/>
     <wire from="(270,250)" to="(270,260)"/>
-<<<<<<< Updated upstream
     <comp lib="1" loc="(340,320)" name="Controlled Buffer">
       <a name="facing" val="south"/>
       <a name="width" val="3"/>
-=======
-    <comp lib="0" loc="(470,330)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="label" val="rT"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="1" loc="(280,300)" name="AND Gate">
-=======
-    <comp lib="0" loc="(110,330)" name="Pin">
-      <a name="width" val="3"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="rA"/>
-    </comp>
-    <comp lib="0" loc="(190,160)" name="Splitter">
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
-      <a name="appear" val="right"/>
-    </comp>
-    <comp lib="1" loc="(340,320)" name="Controlled Buffer">
->>>>>>> Stashed changes
-      <a name="facing" val="south"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(470,160)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="label" val="OP_out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="1" loc="(330,310)" name="NOT Gate">
-      <a name="size" val="20"/>
->>>>>>> Stashed changes
     </comp>
     <comp lib="1" loc="(290,330)" name="Controlled Buffer">
       <a name="width" val="3"/>
@@ -1204,34 +784,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(110,330)" name="Pin">
-=======
-    <comp lib="1" loc="(240,250)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="0" loc="(110,160)" name="Pin">
->>>>>>> Stashed changes
       <a name="width" val="3"/>
       <a name="tristate" val="false"/>
       <a name="label" val="rA"/>
     </comp>
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(190,160)" name="Splitter">
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
-      <a name="appear" val="right"/>
-    </comp>
-    <comp lib="1" loc="(320,250)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-      <a name="negate2" val="true"/>
-    </comp>
->>>>>>> Stashed changes
     <comp lib="0" loc="(470,330)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -1246,11 +802,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="negate0" val="true"/>
     </comp>
     <comp lib="0" loc="(110,160)" name="Pin">
-=======
-    <comp lib="0" loc="(470,160)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
->>>>>>> Stashed changes
       <a name="width" val="3"/>
       <a name="tristate" val="false"/>
       <a name="label" val="OP_in"/>
@@ -1276,32 +827,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="inputs" val="3"/>
       <a name="negate1" val="true"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(470,160)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="3"/>
       <a name="label" val="OP_out"/>
       <a name="labelloc" val="east"/>
-=======
-    <comp lib="1" loc="(330,310)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="0" loc="(340,280)" name="Constant">
-      <a name="width" val="3"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(280,300)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate0" val="true"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="1" loc="(290,330)" name="Controlled Buffer">
-      <a name="width" val="3"/>
-      <a name="control" val="left"/>
->>>>>>> Stashed changes
     </comp>
   </circuit>
   <circuit name="CTL6">
@@ -1321,14 +852,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(120,160)" to="(120,250)"/>
     <wire from="(140,140)" to="(260,140)"/>
     <wire from="(140,140)" to="(140,230)"/>
-<<<<<<< Updated upstream
     <wire from="(120,160)" to="(260,160)"/>
     <comp lib="6" loc="(556,162)" name="Text">
       <a name="text" val="0 =&gt; rA"/>
     </comp>
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
     <comp lib="0" loc="(100,50)" name="Pin">
       <a name="width" val="3"/>
       <a name="tristate" val="false"/>
@@ -1339,36 +866,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="6" loc="(593,243)" name="Text">
       <a name="text" val="1 =&gt; Left-Shift 6"/>
-<<<<<<< Updated upstream
     </comp>
     <comp lib="0" loc="(470,240)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="op0"/>
       <a name="labelloc" val="east"/>
-=======
-=======
-    <comp lib="1" loc="(300,150)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate0" val="true"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="0" loc="(110,50)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
-    </comp>
-    <comp lib="6" loc="(593,243)" name="Text">
-      <a name="text" val="1 =&gt; Left-Shift 6"/>
->>>>>>> Stashed changes
     </comp>
     <comp lib="1" loc="(310,240)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
       <a name="negate0" val="true"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="1" loc="(300,150)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -1376,33 +885,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="negate1" val="true"/>
     </comp>
     <comp lib="0" loc="(470,150)" name="Pin">
-=======
-    <comp lib="6" loc="(556,162)" name="Text">
-      <a name="text" val="0 =&gt; rA"/>
-    </comp>
-    <comp lib="6" loc="(563,140)" name="Text">
-      <a name="text" val="1 =&gt; RC"/>
-    </comp>
-    <comp lib="0" loc="(470,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="s2"/>
-      <a name="labelloc" val="east"/>
->>>>>>> Stashed changes
-    </comp>
-    <comp lib="0" loc="(100,50)" name="Pin">
-      <a name="width" val="3"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="OP"/>
-    </comp>
-    <comp lib="0" loc="(470,240)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="op0"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(470,240)" name="Pin">
->>>>>>> Stashed changes
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="s2"/>
@@ -1421,7 +903,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(180,230)" to="(290,230)"/>
     <wire from="(310,230)" to="(440,230)"/>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(440,230)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -1429,20 +910,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="out"/>
       <a name="labelloc" val="east"/>
     </comp>
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-    <comp lib="0" loc="(180,230)" name="Pin">
-      <a name="width" val="10"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="in"/>
-    </comp>
-    <comp lib="0" loc="(290,220)" name="Constant">
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
->>>>>>> Stashed changes
     <comp lib="0" loc="(310,230)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="incoming" val="16"/>
@@ -1463,7 +930,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit14" val="0"/>
       <a name="bit15" val="0"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(290,220)" name="Constant">
       <a name="width" val="6"/>
       <a name="value" val="0x0"/>
@@ -1473,18 +939,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="in"/>
     </comp>
-=======
-<<<<<<< Updated upstream
-=======
-    <comp lib="0" loc="(440,230)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
   </circuit>
   <circuit name="Sign-Ext 7">
     <a name="circuit" val="Sign-Ext 7"/>
@@ -1506,33 +960,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(210,240)" to="(210,250)"/>
     <wire from="(210,250)" to="(210,260)"/>
     <wire from="(100,230)" to="(110,230)"/>
-<<<<<<< Updated upstream
     <wire from="(210,290)" to="(210,300)"/>
-=======
-<<<<<<< Updated upstream
-=======
-    <wire from="(210,290)" to="(210,300)"/>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
     <wire from="(210,270)" to="(210,280)"/>
     <wire from="(210,220)" to="(210,230)"/>
     <wire from="(130,220)" to="(150,220)"/>
     <wire from="(130,210)" to="(210,210)"/>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(230,320)" name="Splitter">
-=======
-    <comp lib="0" loc="(100,230)" name="Pin">
-      <a name="width" val="10"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="in"/>
-    </comp>
-    <comp lib="0" loc="(440,320)" name="Pin">
->>>>>>> Stashed changes
       <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="out"/>
-      <a name="labelloc" val="east"/>
+      <a name="fanout" val="16"/>
+      <a name="incoming" val="16"/>
+      <a name="appear" val="right"/>
     </comp>
     <comp lib="0" loc="(110,230)" name="Splitter">
       <a name="fanout" val="7"/>
@@ -1541,20 +978,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit8" val="none"/>
       <a name="bit9" val="none"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(100,230)" name="Pin">
       <a name="width" val="10"/>
       <a name="tristate" val="false"/>
       <a name="label" val="in"/>
     </comp>
     <comp lib="0" loc="(440,320)" name="Pin">
-=======
-    <comp lib="0" loc="(230,320)" name="Splitter">
->>>>>>> Stashed changes
       <a name="facing" val="west"/>
-      <a name="fanout" val="16"/>
-      <a name="incoming" val="16"/>
-      <a name="appear" val="right"/>
+      <a name="output" val="true"/>
+      <a name="width" val="16"/>
+      <a name="label" val="out"/>
+      <a name="labelloc" val="east"/>
     </comp>
   </circuit>
   <circuit name="CTL4">
@@ -1595,61 +1029,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(160,360)" to="(250,360)"/>
     <wire from="(290,400)" to="(300,400)"/>
     <wire from="(160,400)" to="(160,530)"/>
-<<<<<<< Updated upstream
     <wire from="(150,220)" to="(170,220)"/>
     <comp lib="1" loc="(330,390)" name="OR Gate">
-=======
-<<<<<<< Updated upstream
-    <comp lib="6" loc="(605,543)" name="Text">
-      <a name="text" val="Dans cet ordre pour minimiser le nombre de portes logiques"/>
-=======
-    <wire from="(150,220)" to="(170,220)"/>
-    <comp lib="6" loc="(569,480)" name="Text">
-      <a name="text" val="1 =&gt; OPERAND0"/>
-    </comp>
-    <comp lib="6" loc="(569,462)" name="Text">
-      <a name="text" val="0 =&gt; OPERAND2"/>
-    </comp>
-    <comp lib="0" loc="(150,220)" name="Pin">
-      <a name="width" val="3"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="op"/>
-    </comp>
-    <comp lib="1" loc="(280,370)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate1" val="true"/>
->>>>>>> Stashed changes
-    </comp>
-    <comp lib="0" loc="(420,460)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="2"/>
-      <a name="label" val="MUXimm"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="1" loc="(280,410)" name="AND Gate">
->>>>>>> Stashed changes
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="6" loc="(569,480)" name="Text">
       <a name="text" val="1 =&gt; OPERAND0"/>
-=======
-    <comp lib="1" loc="(280,520)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(280,410)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate0" val="true"/>
-    </comp>
-    <comp lib="1" loc="(330,390)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
->>>>>>> Stashed changes
     </comp>
     <comp lib="0" loc="(170,220)" name="Splitter">
       <a name="facing" val="south"/>
@@ -1657,18 +1043,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="incoming" val="3"/>
       <a name="appear" val="center"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(150,220)" name="Pin">
       <a name="width" val="3"/>
       <a name="tristate" val="false"/>
       <a name="label" val="op"/>
-=======
-<<<<<<< Updated upstream
-    <comp lib="1" loc="(280,370)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate1" val="true"/>
->>>>>>> Stashed changes
     </comp>
     <comp lib="0" loc="(370,460)" name="Splitter">
       <a name="facing" val="west"/>
@@ -1704,18 +1082,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(569,462)" name="Text">
       <a name="text" val="0 =&gt; OPERAND2"/>
     </comp>
-=======
-    <comp lib="6" loc="(605,543)" name="Text">
-      <a name="text" val="Dans cet ordre pour minimiser le nombre de portes logiques"/>
-    </comp>
-    <comp lib="6" loc="(571,497)" name="Text">
-      <a name="text" val="2 =&gt; PC+1"/>
-    </comp>
-    <comp lib="0" loc="(370,460)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="appear" val="center"/>
-    </comp>
->>>>>>> Stashed changes
   </circuit>
   <circuit name="CTL3">
     <a name="circuit" val="CTL3"/>
@@ -1774,38 +1140,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(120,240)" to="(190,240)"/>
     <wire from="(110,160)" to="(110,220)"/>
     <wire from="(300,330)" to="(300,370)"/>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(320,200)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="appear" val="center"/>
     </comp>
     <comp lib="6" loc="(407,262)" name="Text">
       <a name="text" val="1 =&gt; OPERAND1"/>
-=======
-<<<<<<< Updated upstream
-    <comp lib="1" loc="(280,420)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(230,230)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="4"/>
-      <a name="negate2" val="true"/>
-=======
-    <comp lib="6" loc="(405,477)" name="Text">
-      <a name="text" val="Add, addi, sw, lw =&gt; 0 (add)"/>
+    <comp lib="6" loc="(403,531)" name="Text">
+      <a name="text" val="beq =&gt; 3 (calcul de EQ!)"/>
     </comp>
-    <comp lib="1" loc="(230,230)" name="AND Gate">
+    <comp lib="1" loc="(230,160)" name="AND Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="4"/>
-      <a name="negate2" val="true"/>
+      <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(280,420)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(406,246)" name="Text">
-      <a name="text" val="0 =&gt; PC+1"/>
+    <comp lib="6" loc="(405,278)" name="Text">
+      <a name="text" val="2 =&gt; PC+1+OPERAND2"/>
     </comp>
     <comp lib="6" loc="(404,496)" name="Text">
       <a name="text" val="Nand =&gt; 1 (nand)"/>
@@ -1814,72 +1164,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="west"/>
       <a name="appear" val="center"/>
     </comp>
-    <comp lib="1" loc="(230,160)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(405,278)" name="Text">
-      <a name="text" val="2 =&gt; PC+1+OPERAND2"/>
-    </comp>
-    <comp lib="0" loc="(320,200)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="appear" val="center"/>
-    </comp>
-    <comp lib="6" loc="(407,262)" name="Text">
-      <a name="text" val="1 =&gt; OPERAND1"/>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-    </comp>
-    <comp lib="6" loc="(403,531)" name="Text">
-      <a name="text" val="beq =&gt; 3 (calcul de EQ!)"/>
-    </comp>
-    <comp lib="1" loc="(230,160)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(405,278)" name="Text">
-      <a name="text" val="2 =&gt; PC+1+OPERAND2"/>
-    </comp>
-    <comp lib="6" loc="(404,496)" name="Text">
-      <a name="text" val="Nand =&gt; 1 (nand)"/>
-    </comp>
-    <comp lib="0" loc="(80,250)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="EQ!"/>
-    </comp>
-<<<<<<< Updated upstream
-=======
-    <comp lib="1" loc="(230,440)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(330,380)" name="Pin">
-=======
->>>>>>> Stashed changes
-    <comp lib="0" loc="(110,120)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
-      <a name="appear" val="center"/>
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(330,200)" name="Pin">
->>>>>>> Stashed changes
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="2"/>
       <a name="label" val="FUNCalu"/>
       <a name="labelloc" val="east"/>
-=======
-    <comp lib="1" loc="(230,330)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="6" loc="(403,531)" name="Text">
-      <a name="text" val="beq =&gt; 3 (calcul de EQ!)"/>
->>>>>>> Stashed changes
     </comp>
     <comp lib="6" loc="(406,246)" name="Text">
       <a name="text" val="0 =&gt; PC+1"/>
@@ -1889,7 +1179,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="op"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="1" loc="(280,420)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -1897,9 +1186,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(405,477)" name="Text">
       <a name="text" val="Add, addi, sw, lw =&gt; 0 (add)"/>
     </comp>
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
     <comp lib="0" loc="(80,250)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="EQ!"/>
@@ -1916,23 +1202,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="MUXpc"/>
       <a name="labelloc" val="east"/>
     </comp>
-=======
-    <comp lib="6" loc="(410,513)" name="Text">
-      <a name="text" val="lui, jalr =&gt; 2 (transmission de OPERAND2)"/>
-    </comp>
->>>>>>> Stashed changes
     <comp lib="1" loc="(230,400)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-    <comp lib="1" loc="(230,160)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
->>>>>>> Stashed changes
     <comp lib="6" loc="(410,513)" name="Text">
       <a name="text" val="lui, jalr =&gt; 2 (transmission de OPERAND2)"/>
     </comp>
@@ -1940,7 +1213,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(110,120)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="3"/>
@@ -1951,21 +1223,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="4"/>
       <a name="negate2" val="true"/>
-=======
-    <comp lib="0" loc="(330,380)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="2"/>
-      <a name="label" val="FUNCalu"/>
-=======
-    <comp lib="0" loc="(330,200)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="2"/>
-      <a name="label" val="MUXpc"/>
->>>>>>> Stashed changes
-      <a name="labelloc" val="east"/>
->>>>>>> Stashed changes
     </comp>
   </circuit>
   <circuit name="reg16">
@@ -1991,34 +1248,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="OUT"/>
       <a name="labelloc" val="east"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(180,130)" name="Pin">
       <a name="width" val="16"/>
-=======
-    <comp lib="0" loc="(260,140)" name="Constant"/>
-    <comp lib="4" loc="(290,130)" name="Register">
-      <a name="width" val="16"/>
-    </comp>
-    <comp lib="0" loc="(270,200)" name="Pin">
-      <a name="facing" val="north"/>
->>>>>>> Stashed changes
       <a name="tristate" val="false"/>
       <a name="label" val="IN"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(260,140)" name="Constant"/>
-=======
-<<<<<<< Updated upstream
-    <comp lib="4" loc="(290,130)" name="Register">
-      <a name="width" val="16"/>
-    </comp>
->>>>>>> Stashed changes
     <comp lib="0" loc="(270,200)" name="Pin">
       <a name="facing" val="north"/>
-=======
-    <comp lib="0" loc="(180,130)" name="Pin">
-      <a name="width" val="16"/>
->>>>>>> Stashed changes
       <a name="tristate" val="false"/>
       <a name="label" val="CLK"/>
     </comp>
@@ -2074,33 +1311,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(480,130)" to="(550,130)"/>
     <wire from="(420,80)" to="(530,80)"/>
     <wire from="(440,220)" to="(440,240)"/>
-<<<<<<< Updated upstream
     <comp lib="1" loc="(320,360)" name="AND Gate">
       <a name="facing" val="west"/>
       <a name="size" val="30"/>
       <a name="inputs" val="16"/>
     </comp>
     <comp lib="0" loc="(200,130)" name="Pin">
-=======
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(450,440)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-=======
-    <comp lib="3" loc="(340,180)" name="Adder">
->>>>>>> Stashed changes
-      <a name="width" val="16"/>
-      <a name="label" val="out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(180,260)" name="Pin">
-      <a name="width" val="2"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="FUNCalu"/>
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="3" loc="(340,180)" name="Adder">
->>>>>>> Stashed changes
       <a name="width" val="16"/>
       <a name="tristate" val="false"/>
       <a name="label" val="SCR2"/>
@@ -2121,10 +1337,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="2" loc="(450,280)" name="Multiplexer">
       <a name="facing" val="south"/>
-=======
-    <comp lib="2" loc="(450,280)" name="Multiplexer">
-      <a name="facing" val="south"/>
->>>>>>> Stashed changes
       <a name="select" val="2"/>
       <a name="width" val="16"/>
     </comp>
@@ -2147,66 +1359,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit14" val="15"/>
       <a name="bit15" val="16"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(180,360)" name="Pin">
       <a name="output" val="true"/>
       <a name="label" val="EQ!"/>
     </comp>
     <comp lib="1" loc="(540,200)" name="XNOR Gate">
-=======
-<<<<<<< Updated upstream
-    <comp lib="1" loc="(410,200)" name="NAND Gate">
-=======
+      <a name="facing" val="south"/>
+      <a name="width" val="16"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="0" loc="(450,440)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="width" val="16"/>
       <a name="label" val="out"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(180,260)" name="Pin">
-      <a name="width" val="2"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="FUNCalu"/>
-    </comp>
-    <comp lib="0" loc="(200,80)" name="Pin">
-      <a name="width" val="16"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="SCR1"/>
-    </comp>
-    <comp lib="1" loc="(540,200)" name="XNOR Gate">
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-      <a name="facing" val="south"/>
-      <a name="width" val="16"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(450,440)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-=======
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(200,80)" name="Pin">
-=======
-    <comp lib="1" loc="(320,360)" name="AND Gate">
-      <a name="facing" val="west"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="16"/>
-    </comp>
-    <comp lib="0" loc="(200,130)" name="Pin">
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-      <a name="width" val="16"/>
-      <a name="label" val="out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(410,200)" name="NAND Gate">
-      <a name="facing" val="south"/>
-      <a name="width" val="16"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
     </comp>
   </circuit>
   <circuit name="EXE">
@@ -2237,17 +1405,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(170,170)" to="(330,170)"/>
     <wire from="(300,530)" to="(370,530)"/>
     <wire from="(180,520)" to="(180,580)"/>
-<<<<<<< Updated upstream
     <wire from="(530,240)" to="(530,320)"/>
     <wire from="(330,170)" to="(510,170)"/>
-=======
-    <wire from="(680,230)" to="(680,340)"/>
-    <wire from="(630,360)" to="(630,370)"/>
-    <wire from="(630,440)" to="(840,440)"/>
-    <wire from="(630,330)" to="(630,340)"/>
-    <wire from="(670,340)" to="(670,350)"/>
-    <wire from="(670,220)" to="(840,220)"/>
->>>>>>> Stashed changes
     <wire from="(330,170)" to="(330,210)"/>
     <wire from="(300,270)" to="(720,270)"/>
     <wire from="(170,270)" to="(300,270)"/>
@@ -2267,7 +1426,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(550,340)" to="(560,340)"/>
     <wire from="(510,360)" to="(510,370)"/>
     <wire from="(290,320)" to="(290,510)"/>
-<<<<<<< Updated upstream
     <wire from="(550,360)" to="(720,360)"/>
     <wire from="(560,230)" to="(560,340)"/>
     <wire from="(510,170)" to="(720,170)"/>
@@ -2282,61 +1440,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(180,520)" to="(220,520)"/>
     <wire from="(170,520)" to="(180,520)"/>
     <comp lib="0" loc="(170,270)" name="Pin">
-=======
-    <wire from="(300,270)" to="(840,270)"/>
-    <wire from="(630,220)" to="(640,220)"/>
-    <wire from="(410,520)" to="(840,520)"/>
-    <wire from="(630,170)" to="(630,220)"/>
-    <wire from="(330,170)" to="(630,170)"/>
-    <wire from="(290,510)" to="(370,510)"/>
-    <wire from="(300,270)" to="(300,310)"/>
-    <wire from="(330,240)" to="(330,310)"/>
-    <wire from="(670,340)" to="(680,340)"/>
-    <wire from="(300,310)" to="(310,310)"/>
-    <wire from="(630,360)" to="(640,360)"/>
-    <wire from="(650,240)" to="(650,320)"/>
-    <wire from="(670,230)" to="(680,230)"/>
-    <wire from="(180,520)" to="(220,520)"/>
-    <wire from="(170,520)" to="(180,520)"/>
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(170,320)" name="Pin">
-=======
-    <comp lib="3" loc="(260,530)" name="Adder">
->>>>>>> Stashed changes
       <a name="width" val="16"/>
-    </comp>
-    <comp lib="0" loc="(170,170)" name="Pin">
-      <a name="width" val="3"/>
       <a name="tristate" val="false"/>
-<<<<<<< Updated upstream
       <a name="label" val="OPERAND2"/>
-=======
-      <a name="label" val="op"/>
-    </comp>
-    <comp lib="0" loc="(170,520)" name="Pin">
-      <a name="width" val="16"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="PC"/>
-    </comp>
-    <comp lib="3" loc="(410,520)" name="Adder">
-      <a name="width" val="16"/>
-    </comp>
-    <comp lib="0" loc="(220,540)" name="Constant">
-      <a name="width" val="16"/>
-    </comp>
-    <comp loc="(670,220)" name="CTL3"/>
-    <comp lib="0" loc="(840,120)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="rT"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="2" loc="(350,330)" name="Multiplexer">
-      <a name="selloc" val="tr"/>
-      <a name="select" val="2"/>
->>>>>>> Stashed changes
-      <a name="width" val="16"/>
->>>>>>> Stashed changes
     </comp>
     <comp loc="(330,240)" name="CTL4">
       <a name="facing" val="south"/>
@@ -2346,32 +1452,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="OPERAND0"/>
     </comp>
-<<<<<<< Updated upstream
     <comp loc="(550,220)" name="CTL3"/>
-=======
-<<<<<<< Updated upstream
-    <comp loc="(640,330)" name="ALU"/>
->>>>>>> Stashed changes
     <comp lib="0" loc="(170,520)" name="Pin">
-=======
-    <comp loc="(330,240)" name="CTL4">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(840,360)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="ALU OUTPUT"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(840,580)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
->>>>>>> Stashed changes
       <a name="width" val="16"/>
       <a name="tristate" val="false"/>
       <a name="label" val="PC"/>
-<<<<<<< Updated upstream
     </comp>
     <comp loc="(520,330)" name="ALU"/>
     <comp lib="0" loc="(720,270)" name="Pin">
@@ -2381,7 +1466,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="STORE DATA"/>
       <a name="labelloc" val="east"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(720,580)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -2391,27 +1475,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="0" loc="(170,120)" name="Pin">
       <a name="width" val="3"/>
-=======
-    <comp lib="3" loc="(410,520)" name="Adder">
-=======
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(170,120)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="rT"/>
-    </comp>
-    <comp lib="0" loc="(840,270)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
->>>>>>> Stashed changes
-      <a name="width" val="16"/>
-      <a name="label" val="STORE DATA"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(170,370)" name="Pin">
-      <a name="width" val="16"/>
->>>>>>> Stashed changes
       <a name="tristate" val="false"/>
       <a name="label" val="rT"/>
     </comp>
@@ -2419,17 +1482,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="selloc" val="tr"/>
       <a name="select" val="2"/>
       <a name="width" val="16"/>
-=======
-    <comp loc="(640,330)" name="ALU"/>
-    <comp lib="0" loc="(840,220)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="2"/>
-      <a name="label" val="MUXpc"/>
-      <a name="labelloc" val="east"/>
->>>>>>> Stashed changes
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(720,520)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -2443,17 +1496,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="op"/>
     </comp>
     <comp lib="0" loc="(720,120)" name="Pin">
-=======
-    <comp lib="0" loc="(840,170)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="label" val="op"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-<<<<<<< Updated upstream
-    <comp lib="0" loc="(840,440)" name="Pin">
->>>>>>> Stashed changes
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="3"/>
@@ -2499,35 +1541,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="16"/>
-<<<<<<< Updated upstream
       <a name="label" val="ALU OUTPUT"/>
-=======
-      <a name="label" val="PC+1+Imm"/>
-=======
-    <comp lib="0" loc="(170,320)" name="Pin">
-      <a name="width" val="16"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="OPERAND0"/>
-    </comp>
-    <comp lib="0" loc="(170,370)" name="Pin">
-      <a name="width" val="16"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="OPERAND1"/>
-    </comp>
-    <comp lib="0" loc="(840,520)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="PC+1+Imm"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(840,440)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="label" val="TGT"/>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
       <a name="labelloc" val="east"/>
     </comp>
   </circuit>
@@ -2546,23 +1560,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-anchor facing="east" height="6" width="6" x="67" y="77"/>
     </appear>
     <wire from="(490,220)" to="(530,220)"/>
-<<<<<<< Updated upstream
     <wire from="(310,120)" to="(310,370)"/>
     <wire from="(530,110)" to="(620,110)"/>
-<<<<<<< Updated upstream
     <wire from="(440,260)" to="(440,280)"/>
-=======
-=======
-    <wire from="(530,110)" to="(630,110)"/>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
     <wire from="(240,220)" to="(350,220)"/>
     <wire from="(150,110)" to="(300,110)"/>
     <wire from="(310,370)" to="(440,370)"/>
     <wire from="(150,370)" to="(310,370)"/>
     <wire from="(320,110)" to="(530,110)"/>
     <wire from="(150,240)" to="(240,240)"/>
-<<<<<<< Updated upstream
     <wire from="(440,300)" to="(440,370)"/>
     <wire from="(240,220)" to="(240,240)"/>
     <wire from="(530,110)" to="(530,220)"/>
@@ -2585,7 +1591,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="dataWidth" val="16"/>
       <a name="bus" val="asynch"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(620,110)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -2593,28 +1598,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="DATA_OUT"/>
       <a name="labelloc" val="east"/>
     </comp>
-=======
-=======
-    <wire from="(330,110)" to="(530,110)"/>
-    <wire from="(150,110)" to="(310,110)"/>
-    <wire from="(240,220)" to="(240,240)"/>
-    <wire from="(530,110)" to="(530,220)"/>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
     <comp lib="0" loc="(150,240)" name="Pin">
       <a name="width" val="16"/>
       <a name="tristate" val="false"/>
       <a name="label" val="ADDR"/>
     </comp>
-<<<<<<< Updated upstream
     <comp lib="0" loc="(150,110)" name="Pin">
       <a name="width" val="16"/>
       <a name="tristate" val="false"/>
       <a name="label" val="DATA_IN"/>
     </comp>
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
   </circuit>
   <circuit name="WB">
     <a name="circuit" val="WB"/>
@@ -2727,7 +1720,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(180,130)" name="Pin">
       <a name="width" val="3"/>
       <a name="tristate" val="false"/>
-<<<<<<< Updated upstream
       <a name="label" val="IN"/>
     </comp>
   </circuit>
@@ -2867,27 +1859,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="2" loc="(580,330)" name="Multiplexer">
       <a name="selloc" val="tr"/>
       <a name="width" val="16"/>
-=======
-      <a name="label" val="rT_in"/>
-=======
-    <comp lib="0" loc="(150,370)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="WE"/>
-    </comp>
-    <comp lib="4" loc="(490,220)" name="RAM">
-      <a name="addrWidth" val="16"/>
-      <a name="dataWidth" val="16"/>
-      <a name="bus" val="asynch"/>
-    </comp>
-    <comp lib="0" loc="(150,110)" name="Pin">
-      <a name="width" val="16"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="DATA_IN"/>
-    </comp>
-    <comp lib="1" loc="(330,110)" name="Controlled Buffer">
-      <a name="width" val="16"/>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
     </comp>
   </circuit>
 </project>
