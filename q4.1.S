@@ -12,6 +12,10 @@ sw r6, r4, 0
 sw r5, r4, 2
 movi r4, 0xfffe
 lw r5, r4, 0
+movi r6, 0xf
+nand r5, r5, r6
+movi r6, 0xffff
+nand r5, r5, r6
 movi r4, 0xffe6
 add r4, r4, r5
 movi r5, 0xffff
